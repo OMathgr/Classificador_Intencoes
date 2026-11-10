@@ -1,0 +1,87 @@
+{
+  "base": "MASSIVE 1.1, pt-PT",
+  "tamanhos": {
+    "treino": 11514,
+    "validacao": 2033,
+    "teste": 2974
+  },
+  "num_intencoes": 60,
+  "validacao": {
+    "baseline_mais_frequente": {
+      "acuracia": 0.0644,
+      "f1_macro": 0.0021
+    },
+    "naive_bayes": {
+      "acuracia": 0.7772,
+      "f1_macro": 0.7071,
+      "segundos_treino": 1.9
+    },
+    "regressao_logistica": {
+      "acuracia": 0.8372,
+      "f1_macro": 0.8138,
+      "segundos_treino": 40.2
+    },
+    "svm_linear": {
+      "acuracia": 0.8387,
+      "f1_macro": 0.8072,
+      "segundos_treino": 4.8
+    }
+  },
+  "modelo_escolhido": "regressao_logistica",
+  "teste": {
+    "acuracia": 0.8551,
+    "f1_macro": 0.8177
+  },
+  "principais_confusoes_teste": [
+    {
+      "real": "general_quirky",
+      "previsto": "qa_factoid",
+      "quantidade": 17
+    },
+    {
+      "real": "qa_factoid",
+      "previsto": "general_quirky",
+      "quantidade": 14
+    },
+    {
+      "real": "general_quirky",
+      "previsto": "calendar_query",
+      "quantidade": 13
+    },
+    {
+      "real": "calendar_set",
+      "previsto": "calendar_query",
+      "quantidade": 12
+    },
+    {
+      "real": "calendar_query",
+      "previsto": "calendar_set",
+      "quantidade": 11
+    },
+    {
+      "real": "general_quirky",
+      "previsto": "news_query",
+      "quantidade": 8
+    },
+    {
+      "real": "general_quirky",
+      "previsto": "weather_query",
+      "quantidade": 7
+    },
+    {
+      "real": "news_query",
+      "previsto": "general_quirky",
+      "quantidade": 7
+    },
+    {
+      "real": "music_likeness",
+      "previsto": "play_music",
+      "quantidade": 6
+    },
+    {
+      "real": "email_query",
+      "previsto": "email_sendemail",
+      "quantidade": 5
+    }
+  ]
+}

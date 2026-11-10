@@ -1,0 +1,65 @@
+                          precision    recall  f1-score   support
+
+             alarm_query       0.97      0.88      0.92        34
+            alarm_remove       0.90      0.86      0.88        21
+               alarm_set       0.90      0.93      0.92        41
+       audio_volume_down       0.83      0.91      0.87        11
+       audio_volume_mute       0.93      0.88      0.90        32
+      audio_volume_other       1.00      0.33      0.50         6
+         audio_volume_up       0.71      0.77      0.74        13
+          calendar_query       0.70      0.80      0.75       126
+         calendar_remove       0.85      0.94      0.89        67
+            calendar_set       0.91      0.89      0.90       209
+          cooking_recipe       0.96      0.89      0.92        72
+        datetime_convert       0.77      0.67      0.71        15
+          datetime_query       0.90      0.88      0.89        88
+        email_addcontact       0.88      0.58      0.70        12
+             email_query       0.96      0.91      0.93       119
+      email_querycontact       0.62      0.77      0.69        26
+         email_sendemail       0.92      0.95      0.94       114
+           general_greet       0.00      0.00      0.00         1
+            general_joke       1.00      0.89      0.94        19
+          general_quirky       0.57      0.63      0.60       169
+            iot_cleaning       1.00      0.92      0.96        26
+              iot_coffee       1.00      0.92      0.96        36
+     iot_hue_lightchange       0.86      0.83      0.85        36
+        iot_hue_lightdim       0.94      0.81      0.87        21
+        iot_hue_lightoff       0.93      0.95      0.94        43
+         iot_hue_lighton       0.33      0.33      0.33         3
+         iot_hue_lightup       0.87      0.74      0.80        27
+            iot_wemo_off       1.00      0.78      0.88        18
+             iot_wemo_on       0.90      0.90      0.90        10
+       lists_createoradd       0.83      0.87      0.85        39
+             lists_query       0.84      0.80      0.82        51
+            lists_remove       0.98      0.77      0.86        52
+       music_dislikeness       1.00      0.25      0.40         4
+          music_likeness       0.92      0.61      0.73        36
+             music_query       0.91      0.83      0.87        35
+          music_settings       0.67      0.33      0.44         6
+              news_query       0.87      0.87      0.87       124
+          play_audiobook       0.91      0.73      0.81        41
+               play_game       0.94      0.94      0.94        35
+              play_music       0.84      0.93      0.88       176
+           play_podcasts       0.97      0.89      0.93        63
+              play_radio       0.84      0.94      0.89        72
+             qa_currency       0.97      0.95      0.96        39
+           qa_definition       0.91      0.84      0.87        57
+              qa_factoid       0.69      0.82      0.75       141
+                qa_maths       0.92      0.92      0.92        25
+                qa_stock       0.83      0.96      0.89        26
+   recommendation_events       0.85      0.77      0.80        43
+recommendation_locations       0.84      0.84      0.84        31
+   recommendation_movies       0.82      0.70      0.76        20
+             social_post       0.99      0.88      0.93        81
+            social_query       0.87      0.80      0.83        25
+          takeaway_order       0.81      0.95      0.88        22
+          takeaway_query       1.00      0.86      0.92        35
+         transport_query       0.93      0.73      0.81        51
+          transport_taxi       0.96      1.00      0.98        23
+        transport_ticket       0.97      0.97      0.97        35
+       transport_traffic       0.74      0.93      0.82        15
+           weather_query       0.90      0.97      0.93       156
+
+                accuracy                           0.86      2974
+               macro avg       0.86      0.80      0.82      2974
+            weighted avg       0.86      0.86      0.86      2974
